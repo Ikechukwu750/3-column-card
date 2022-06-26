@@ -36,10 +36,25 @@ section {
 
 .grid-link {
   position: absolute;
-  width: 60%;
+  width: 45%;
   text-align: center;
   top: 0.2rem;
   left: 2rem;
+  border-radius: 0.2rem;
+  padding: 0.6rem 2rem;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #696cff;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#repo-link {
+  position: absolute;
+  width: 45%;
+  text-align: center;
+  top: 0.2rem;
+  right: 2rem;
   border-radius: 0.2rem;
   padding: 0.6rem 2rem;
   text-decoration: none;
